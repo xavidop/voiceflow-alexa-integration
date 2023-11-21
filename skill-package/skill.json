@@ -1,0 +1,37 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:542527585830:function:13a4165e-58a2-4730-b7a3-55b25d417a45:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:542527585830:function:13a4165e-58a2-4730-b7a3-55b25d417a45:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:542527585830:function:13a4165e-58a2-4730-b7a3-55b25d417a45:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:542527585830:function:13a4165e-58a2-4730-b7a3-55b25d417a45:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "pokedex november"
+        }
+      }
+    }
+  }
+}

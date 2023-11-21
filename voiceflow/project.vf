@@ -1,0 +1,1216 @@
+{
+  "_version": "1.2",
+  "project": {
+    "_id": "655b0f6e08a0550007e4d140",
+    "name": "pokemon",
+    "teamID": "wJEoKxbEqg",
+    "devVersion": "655b0f6e323a7321de080f36",
+    "platform": "voiceflow",
+    "type": "voice",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "members": [],
+    "linkType": "STRAIGHT",
+    "image": "",
+    "customThemes": [],
+    "_version": 1.2,
+    "updatedAt": "2023-11-20T09:55:22.403Z",
+    "creatorID": 56117,
+    "createdAt": "2023-11-20T07:49:02.000Z",
+    "updatedBy": 56117,
+    "apiPrivacy": "private",
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "prototype": {
+      "nlp": {
+        "type": "VFNLU"
+      },
+      "lastTrainedTime": 1700474030839,
+      "trainedModel": {
+        "intents": [
+          {
+            "key": "sb3u34c3",
+            "name": "info_intent",
+            "inputs": [
+              {
+                "text": "{{[pokemon].rl3w34c0}}",
+                "slots": [
+                  "rl3w34c0"
+                ]
+              },
+              {
+                "text": "which pokemon is {{[pokemon].rl3w34c0}}",
+                "slots": [
+                  "rl3w34c0"
+                ]
+              }
+            ],
+            "slots": [
+              {
+                "id": "rl3w34c0",
+                "required": false,
+                "dialog": {
+                  "prompt": [
+                    {
+                      "text": "",
+                      "slots": []
+                    }
+                  ],
+                  "confirm": [
+                    {
+                      "text": "",
+                      "slots": []
+                    }
+                  ],
+                  "utterances": [],
+                  "confirmEnabled": false
+                }
+              }
+            ]
+          },
+          {
+            "key": "VF.NO",
+            "name": "VF.NO",
+            "inputs": [
+              {
+                "text": "no"
+              },
+              {
+                "text": "nope"
+              },
+              {
+                "text": "nay"
+              },
+              {
+                "text": "nah"
+              },
+              {
+                "text": "no way"
+              },
+              {
+                "text": "negative"
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "VF.YES",
+            "name": "VF.YES",
+            "inputs": [
+              {
+                "text": "yes"
+              },
+              {
+                "text": "yea"
+              },
+              {
+                "text": "ok"
+              },
+              {
+                "text": "okay"
+              },
+              {
+                "text": "yup"
+              },
+              {
+                "text": "ya"
+              },
+              {
+                "text": "sure"
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "None",
+            "name": "None",
+            "inputs": [
+              {
+                "text": "None"
+              }
+            ],
+            "slots": []
+          }
+        ],
+        "slots": [
+          {
+            "key": "rl3w34c0",
+            "name": "pokemon",
+            "type": {
+              "value": "Custom"
+            },
+            "color": "#4FA9B3",
+            "inputs": [
+              "pikachu,pika,25",
+              "charmander,4,char"
+            ]
+          }
+        ]
+      }
+    },
+    "liveVersion": "655b2785c6f2232e582dcd3e"
+  },
+  "version": {
+    "_id": "655b0f6e323a7321de080f36",
+    "name": "Initial Version",
+    "topics": [
+      {
+        "sourceID": "64dbb6696a8fab0013dba13f",
+        "type": "DIAGRAM"
+      }
+    ],
+    "folders": {},
+    "_version": 4.07,
+    "creatorID": 1,
+    "projectID": "655b0f6e08a0550007e4d140",
+    "prototype": {
+      "data": {
+        "name": "pokemon",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "sb3u34c3",
+            "name": "info_intent",
+            "inputs": [
+              {
+                "text": "{{[pokemon].rl3w34c0}}",
+                "slots": [
+                  "rl3w34c0"
+                ]
+              },
+              {
+                "text": "which pokemon is {{[pokemon].rl3w34c0}}",
+                "slots": [
+                  "rl3w34c0"
+                ]
+              }
+            ],
+            "slots": [
+              {
+                "id": "rl3w34c0",
+                "required": false,
+                "dialog": {
+                  "prompt": [
+                    {
+                      "text": "",
+                      "slots": []
+                    }
+                  ],
+                  "confirm": [
+                    {
+                      "text": "",
+                      "slots": []
+                    }
+                  ],
+                  "utterances": [],
+                  "confirmEnabled": false
+                }
+              }
+            ]
+          },
+          {
+            "key": "VF.NO",
+            "name": "VF.NO",
+            "inputs": [
+              {
+                "text": "no"
+              },
+              {
+                "text": "nope"
+              },
+              {
+                "text": "nay"
+              },
+              {
+                "text": "nah"
+              },
+              {
+                "text": "no way"
+              },
+              {
+                "text": "negative"
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "VF.YES",
+            "name": "VF.YES",
+            "inputs": [
+              {
+                "text": "yes"
+              },
+              {
+                "text": "yea"
+              },
+              {
+                "text": "ok"
+              },
+              {
+                "text": "okay"
+              },
+              {
+                "text": "yup"
+              },
+              {
+                "text": "ya"
+              },
+              {
+                "text": "sure"
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "None",
+            "name": "None",
+            "inputs": [
+              {
+                "text": "None"
+              }
+            ],
+            "slots": []
+          }
+        ],
+        "slots": [
+          {
+            "key": "rl3w34c0",
+            "name": "pokemon",
+            "type": {
+              "value": "Custom"
+            },
+            "color": "#4FA9B3",
+            "inputs": [
+              "pikachu,pika,25",
+              "charmander,4,char"
+            ]
+          }
+        ]
+      },
+      "context": {
+        "stack": [
+          {
+            "programID": "64dbb6696a8fab0013dba13f",
+            "storage": {},
+            "variables": {},
+            "diagramID": "64dbb6696a8fab0013dba13f"
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "slotsMap": {
+          "rl3w34c0": {
+            "key": "rl3w34c0",
+            "name": "pokemon",
+            "type": {
+              "value": "Custom"
+            },
+            "color": "#4FA9B3",
+            "inputs": [
+              "pikachu,pika, 25, pikachu",
+              "charmander,charmander, 4, char"
+            ]
+          }
+        },
+        "platform": "voiceflow",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [
+          "sb3u34c3",
+          "VF.NO",
+          "VF.YES"
+        ],
+        "goToIntentsSet": []
+      },
+      "settings": {},
+      "platform": "voiceflow",
+      "type": "voice"
+    },
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "to_say"
+    ],
+    "components": [],
+    "manualSave": false,
+    "platformData": {
+      "slots": [
+        {
+          "key": "rl3w34c0",
+          "name": "pokemon",
+          "type": {
+            "value": "Custom"
+          },
+          "color": "#4FA9B3",
+          "inputs": [
+            "pikachu,pika, 25, pikachu",
+            "charmander,charmander, 4, char"
+          ]
+        }
+      ],
+      "intents": [
+        {
+          "key": "None",
+          "name": "None",
+          "inputs": [],
+          "slots": []
+        },
+        {
+          "key": "AMAZON.YesIntent",
+          "name": "AMAZON.YesIntent",
+          "inputs": [],
+          "slots": []
+        },
+        {
+          "key": "AMAZON.NoIntent",
+          "name": "AMAZON.NoIntent",
+          "inputs": [],
+          "slots": []
+        },
+        {
+          "key": "sb3u34c3",
+          "name": "info_intent",
+          "inputs": [
+            {
+              "text": "{{[pokemon].rl3w34c0}} ",
+              "slots": [
+                "rl3w34c0"
+              ]
+            },
+            {
+              "text": "which pokemon is {{[pokemon].rl3w34c0}}",
+              "slots": [
+                "rl3w34c0"
+              ]
+            }
+          ],
+          "slots": [
+            {
+              "id": "rl3w34c0",
+              "dialog": {
+                "prompt": [
+                  {
+                    "text": "",
+                    "slots": []
+                  }
+                ],
+                "confirm": [
+                  {
+                    "text": "",
+                    "slots": []
+                  }
+                ],
+                "utterances": [],
+                "confirmEnabled": false
+              },
+              "required": false
+            }
+          ]
+        },
+        {
+          "key": "VF.NO",
+          "name": "VF.NO",
+          "inputs": [],
+          "slots": []
+        },
+        {
+          "key": "VF.YES",
+          "name": "VF.YES",
+          "inputs": [],
+          "slots": []
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "defaultVoice": "Alexa"
+      },
+      "publishing": {},
+      "platform": "voiceflow"
+    },
+    "rootDiagramID": "64dbb6696a8fab0013dba13f",
+    "templateDiagramID": "64dbb6696a8fab0013dba140",
+    "autoSaveFromRestore": false,
+    "domains": [
+      {
+        "id": "clp6lvitfegkx07nn3eu74q5o",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64dbb6696a8fab0013dba13f"
+        ],
+        "rootDiagramID": "64dbb6696a8fab0013dba13f",
+        "updatedAt": "2023-11-20T09:55:27.126Z",
+        "updatedBy": 56117
+      }
+    ]
+  },
+  "diagrams": {
+    "64dbb6696a8fab0013dba13f": {
+      "_id": "64dbb6696a8fab0013dba13f",
+      "offsetX": 277.7335343985862,
+      "offsetY": 80.34917060583163,
+      "zoom": 100,
+      "variables": [],
+      "name": "ROOT",
+      "versionID": "655b0f6e323a7321de080f36",
+      "creatorID": 56117,
+      "modified": 1700466543,
+      "intentStepIDs": [],
+      "type": "TOPIC",
+      "nodes": {
+        "start00000000000000000000": {
+          "nodeID": "start00000000000000000000",
+          "type": "start",
+          "coords": [
+            -86.94250787880149,
+            60.34268250083451
+          ],
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "655b2392508806a32943602f",
+                  "id": "60b7e7cad4b17f0ce7bddf11",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          }
+        },
+        "655b2392508806a329436025": {
+          "type": "block",
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "655b2392508806a32943603f",
+              "655b2b91153eafe07b2b31ee",
+              "655b2ba5153eafe07b2b31f9"
+            ]
+          },
+          "nodeID": "655b2392508806a329436025",
+          "coords": [
+            1414.968189280146,
+            178.61284918415512
+          ]
+        },
+        "655b2392508806a329436027": {
+          "type": "block",
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "655b2392508806a32943604c"
+            ]
+          },
+          "nodeID": "655b2392508806a329436027",
+          "coords": [
+            970.5499183646156,
+            254.7546818507438
+          ]
+        },
+        "655b2392508806a329436029": {
+          "type": "block",
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "655b2392508806a329436050"
+            ]
+          },
+          "nodeID": "655b2392508806a329436029",
+          "coords": [
+            976.7999183646156,
+            641.0046818507444
+          ]
+        },
+        "655b2392508806a32943602b": {
+          "type": "block",
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "655b2392508806a329436053"
+            ]
+          },
+          "nodeID": "655b2392508806a32943602b",
+          "coords": [
+            575.5499183646162,
+            638.5046818507444
+          ]
+        },
+        "655b2392508806a32943602d": {
+          "type": "block",
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "655b2392508806a329436056",
+              "655b2392508806a329436058",
+              "655b2392508806a32943605b"
+            ]
+          },
+          "nodeID": "655b2392508806a32943602d",
+          "coords": [
+            777.2114737729726,
+            -294.5379583963664
+          ]
+        },
+        "655b2392508806a32943602f": {
+          "type": "block",
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "655b2392508806a32943605f",
+              "655b2392508806a329436062"
+            ]
+          },
+          "nodeID": "655b2392508806a32943602f",
+          "coords": [
+            265.1750678151937,
+            11.42896678087643
+          ]
+        },
+        "655b2392508806a32943603f": {
+          "type": "speak",
+          "data": {
+            "name": "",
+            "randomize": false,
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "{{[to_say].to_say}} "
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "655b2392508806a329436040"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2392508806a32943603f",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "655b2392508806a32943604c": {
+          "type": "code",
+          "data": {
+            "name": "",
+            "code": "for (var i = 0; i < descripciones.length; i++) {\n   descripcion = descripciones[i];\n   \n   if(descripcion.language.name == \"en\"){\n     to_say = descripcion.flavor_text;\n     break;\n   }\n}\n",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "655b2392508806a329436025",
+                  "id": "655b2392508806a32943604e",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1136.55,
+                          388.5
+                        ]
+                      },
+                      {
+                        "point": [
+                          1193.26,
+                          388.5
+                        ]
+                      },
+                      {
+                        "point": [
+                          1193.26,
+                          205.61
+                        ]
+                      },
+                      {
+                        "point": [
+                          1249.97,
+                          205.61
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": "655b2392508806a329436029",
+                  "id": "655b2392508806a32943604d",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1136.55,
+                          443
+                        ]
+                      },
+                      {
+                        "point": [
+                          1160.55,
+                          443
+                        ]
+                      },
+                      {
+                        "point": [
+                          1160.55,
+                          542
+                        ]
+                      },
+                      {
+                        "point": [
+                          976.8,
+                          542
+                        ]
+                      },
+                      {
+                        "point": [
+                          976.8,
+                          641
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2392508806a32943604c"
+        },
+        "655b2392508806a329436050": {
+          "type": "speak",
+          "data": {
+            "name": "",
+            "randomize": false,
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "there was an error in your request"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "655b2392508806a329436051"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2392508806a329436050"
+        },
+        "655b2392508806a329436053": {
+          "type": "speak",
+          "data": {
+            "name": "",
+            "randomize": false,
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Couldn't find information about {{[pokemon].rl3w34c0}} "
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "655b2392508806a329436054"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2392508806a329436053"
+        },
+        "655b2392508806a329436056": {
+          "type": "intent",
+          "data": {
+            "name": "",
+            "intent": "sb3u34c3",
+            "mappings": [],
+            "availability": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "655b2392508806a329436055"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2392508806a329436056"
+        },
+        "655b2392508806a329436058": {
+          "type": "speak",
+          "data": {
+            "name": "",
+            "randomize": false,
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "searching information about {{[pokemon].rl3w34c0}} "
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "655b2392508806a329436059"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2392508806a329436058"
+        },
+        "655b2392508806a32943605b": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/{{[pokemon].rl3w34c0}}",
+            "body": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "params": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "method": "GET",
+            "headers": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "content": "",
+            "mappings": [
+              {
+                "path": "response.flavor_text_entries",
+                "var": "descripciones"
+              }
+            ],
+            "bodyType": "formData",
+            "selectedAction": "Make a GET Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "655b2392508806a329436027",
+                  "id": "655b2392508806a32943605d",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          943.21,
+                          12.71
+                        ]
+                      },
+                      {
+                        "point": [
+                          970.55,
+                          12.71
+                        ]
+                      },
+                      {
+                        "point": [
+                          970.55,
+                          254.75
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": "655b2392508806a32943602b",
+                  "id": "655b2392508806a32943605c",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          611.21,
+                          67.21
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          575.55,
+                          67.21
+                        ]
+                      },
+                      {
+                        "point": [
+                          575.55,
+                          638.5
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2392508806a32943605b"
+        },
+        "655b2392508806a32943605f": {
+          "type": "speak",
+          "data": {
+            "name": "",
+            "randomize": false,
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "welcome to your pokedex, ask me about a pokemon"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "655b2392508806a329436060"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2392508806a32943605f"
+        },
+        "655b2392508806a329436062": {
+          "type": "prompt",
+          "data": {
+            "name": "",
+            "noReply": null,
+            "noMatch": {
+              "types": [
+                "reprompt"
+              ],
+              "pathName": "No Match",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": "bienvenido a tu pokedex, pregúntame por un pokemon"
+                }
+              ]
+            },
+            "chips": null,
+            "buttons": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "655b2392508806a329436063"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2392508806a329436062"
+        },
+        "655b2b91153eafe07b2b31ee": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Do you need anything else?"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "655b2b91153eafe07b2b31ef"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2b91153eafe07b2b31ee"
+        },
+        "655b2ba5153eafe07b2b31f9": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "VF.NO",
+                "mappings": []
+              },
+              {
+                "intent": "VF.YES",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "655b2ba6153eafe07b2b31fb"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "655b2bd1153eafe07b2b3209",
+                  "id": "655b2ba6153eafe07b2b31fa",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1580.97,
+                          377.86
+                        ]
+                      },
+                      {
+                        "point": [
+                          1650.34,
+                          377.86
+                        ]
+                      },
+                      {
+                        "point": [
+                          1650.34,
+                          217.11
+                        ]
+                      },
+                      {
+                        "point": [
+                          1719.72,
+                          217.11
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "655b2c08153eafe07b2b3218",
+                  "type": "",
+                  "target": "655b2c22153eafe07b2b321c",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "655b2ba5153eafe07b2b31f9"
+        },
+        "655b2bd1153eafe07b2b3207": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "okay, bye!"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "655b2bd1153eafe07b2b3208"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2bd1153eafe07b2b3207"
+        },
+        "655b2bd1153eafe07b2b3209": {
+          "type": "block",
+          "data": {
+            "name": "New Block 7",
+            "steps": [
+              "655b2bd1153eafe07b2b3207",
+              "655b2be3153eafe07b2b3210"
+            ]
+          },
+          "nodeID": "655b2bd1153eafe07b2b3209",
+          "coords": [
+            1884.7181892801457,
+            190.1128491841551
+          ]
+        },
+        "655b2be3153eafe07b2b3210": {
+          "type": "exit",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2be3153eafe07b2b3210"
+        },
+        "655b2c22153eafe07b2b321a": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "perfect! ask me about a pokemon"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "655b2c22153eafe07b2b321b"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "655b2c22153eafe07b2b321a"
+        },
+        "655b2c22153eafe07b2b321c": {
+          "type": "block",
+          "data": {
+            "name": "New Block 8",
+            "steps": [
+              "655b2c22153eafe07b2b321a",
+              "655b2d03153eafe07b2b322d"
+            ]
+          },
+          "nodeID": "655b2c22153eafe07b2b321c",
+          "coords": [
+            1892.2181892801457,
+            402.6128491841551
+          ]
+        },
+        "655b2d03153eafe07b2b322d": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": null,
+            "chips": null,
+            "buttons": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "655b2d03153eafe07b2b322f"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "655b2d03153eafe07b2b322e"
+                }
+              ]
+            }
+          },
+          "nodeID": "655b2d03153eafe07b2b322d"
+        }
+      },
+      "diagramID": "64dbb6696a8fab0013dba13f",
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "655b2392508806a329436056"
+        }
+      ],
+      "menuNodeIDs": []
+    }
+  },
+  "variableStates": []
+}

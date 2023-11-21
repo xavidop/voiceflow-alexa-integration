@@ -1,0 +1,69 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "pokemon",
+              "type": "pokemon"
+            }
+          ],
+          "name": "info_intent",
+          "samples": [
+            "which pokemon is {pokemon} ",
+            "{pokemon}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "4",
+                  "char",
+                  "charmander"
+                ],
+                "value": "charmander"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "pika",
+                  "25",
+                  "pikachu"
+                ],
+                "value": "pikachu"
+              }
+            }
+          ],
+          "name": "pokemon"
+        }
+      ],
+      "invocationName": "pokedex november"
+    }
+  }
+}
